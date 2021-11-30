@@ -1,0 +1,22 @@
+When y initially moves by -11 and timeLeftInJump is set to 10.5 decreasing at a factor of 0.5 every loop these are the jump statistics:
+
+
+The player can jump slightly more than 4 blocks at a time.
+The player can jump slightly more than 2 blocks high.
+
+
+When y initially moves by -11 and timeLeftInJump is set to 10.5 decreasing at a factor of 0.5 every loop these are the jump statistics:
+
+
+The player can only just about make the jump with 0 blocks of elevation and a 5 block gap inbetween.
+The player can make the jump with 1 block of elevation and a 4 block gap with moderate ease.
+The player can only just about make the jump with 2 blocks of elevation and a 3 block gap inbetween.
+The player can easily make the a jump with 2 blocks of elevation and 0 blocks inbetween but can go no higher.
+
+
+Only just is the optimal solution because it makes the platformer challenging as its easy to fall making it so the score actually feels like you accomplished something.
+If you press space a tiny bit too early you dont make it and if you dont press it fast enough you fall. It is the optimal number though not all jumps should be super challenging
+so putting a few easier jumps in there is nice as well. For now I have decided that y = -11 and timeLeftInJump = 10.5 is the optimal values for this game as the natural looking 
+jumps are the challenging ones so I can make a fairly difficult level without it looking too forced.
+I am using all this information for a basic map layout mockup on photoshop before creating the real thing. Almost anything in the photshop design can change including the models
+and location of things. On top of that not all easter eggs/secrets are likely to be in the photoshop model as they will be determined at a later date when they are more fitting
